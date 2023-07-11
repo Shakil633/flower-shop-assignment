@@ -43,7 +43,7 @@
   width: 400px;
   height: 480px;
 }
-/* this part section style */
+/* this main part section style */
 .about {
   margin-top: 100px;
 }
@@ -66,6 +66,7 @@
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  gap: 15px;
 }
 .img-part {
   width: 200px;
@@ -76,26 +77,24 @@
 .img-6 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  width: 270px;
+  width: 290px;
   text-align: center;
   height: 320px;
-  margin-right: 20px;
 }
 .img-5 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-  width: 270px;
+  width: 290px;
   text-align: center;
   height: 320px;
-  margin-right: 20px;
 }
 .img-7 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
-  width: 270px;
+  width: 290px;
   text-align: center;
   height: 320px;
-  margin-right: 20px;
+  
 }
 .flower-title {
   color: #272727;
@@ -106,29 +105,107 @@
   margin-top: 5px;
   text-decoration-line: underline;
 }
-/* support section start style*/
+/* my bonus part style */
+.about-product {
+  margin-top: 130px;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+.section-description {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 10px;
+  font-style: normal;
+}
+.product-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 15px;
+}
+.img-part {
+  width: 200px;
+  height: 250px;
+  background-size: 100%;
+  margin-top: 70px;
+}
+.img-1 {
+  border-radius: 100% ;
+  background: rgba(167, 33, 98, 0.15);
+  width: 290px;
+  text-align: center;
+  height: 320px;
+}
+.img-1 {
+  border-radius:100%;
+  background: rgba(5, 151, 160, 0.15);
+  width: 290px;
+  text-align: center;
+  height: 320px;
+}
+.img-3 {
+  border-radius: 100%;
+  background: rgba(71, 125, 17, 0.15);
+  width: 290px;
+  text-align: center;
+  height: 320px;
+  
+}
+.product-title{
+  color: #272727;
+  margin-top: 5px;
+}
+.product-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+}
+.product-btn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #77ae52;
+  border: 0;
+  color: white;
+  margin-top: 20px;
+  align-items: center;
 
+}
+/* support section start style*/
 .day-section {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+  
+}
+.support-section{
+  width: 900px;
+  height: 200px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin-top: 150px;
-  height: 230px;
-  margin-right: 135px;
-  margin-left: 115px;
+}
+.support-img{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  text-align: center;
 }
 .img-group {
-  margin-top: 60px;
-  width: 68px;
-  height: 78px;
+  padding-top: 40px;
+  width: 55px;
+  height: 65px;
 }
 .day-description {
-  color: rgba(39, 39, 39, 0.8);
+  color: rgba(39, 39, 39, 0.80);
   font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 35px;
 }
 
@@ -179,42 +256,58 @@
   height: 270px;
 }
 /* this is the instagram style part */
-.instagram-content {
+ .instagram-content {
   margin-top: 70px;
 }
-.instagram-img-part {
+.instagram-part{
   display: flex;
   justify-content: center;
 }
-.instagram-img {
-  width: 200px;
-  height: 250px;
-  margin-right: 15px;
+.instagram-section{
+  width: 600px;
+  height: 300px;
+}
+.instagram-section-img {
+  display: flex;
+  justify-content:center;
+  text-align: center;
   margin-top: 30px;
+  gap: 15px;
+  
+}
+.instagram-img{
+  width: 215px;
 }
 
 /* this is the deals style part */
-.deals-content {
+.deals-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.deals-content{
   background-image: url("image/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  border-radius: 8px;
-  height: 50vh;
-  margin-right: 135px;
-  margin-left: 115px;
-  text-align: center;
-  margin-top: 80px;
+  width: 900px;
+  height: 300px;
 }
-.deals-title {
+.deals-content-part{
+  text-align: center;
+  padding-top: 75px;
+} 
+.deals-title{
   color: #272727;
-  text-align: center;
   font-size: 25px;
-  font-weight: 700;
-  padding-top: 80px;
 }
-.deals-input {
-  margin-bottom: 25px;
-  margin-top: 25px;
+.deals-description{
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 12px;
+  line-height: 40px;
+}
+.deals-input{
   padding: 10px 35px;
   color: #757575;
   border-radius: 5px;
@@ -222,14 +315,9 @@
   background-color: #fff;
   width: 40%;
   margin-right: 5px;
+  margin-top: 15px;
 }
-.deals-description {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 14px;
-  line-height: 30px;
-}
-.deals-btn {
+.deals-btn{
   padding: 10px 20px;
   border-radius: 8px;
   background: #e55473;
@@ -244,7 +332,7 @@
   background-color: #111010;
   color: white;
   padding-top: 80px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .footer-title {
   color: #e55473;
@@ -265,5 +353,4 @@
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-size: 12px;
-  
 }
